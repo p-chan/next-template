@@ -1,0 +1,8 @@
+:root {
+  --color-text: #111;
+}
+
+html {
+  color: var(--color-text);
+  font-family: 'Lato', 'Noto Sans JP', sans-serif;
+}

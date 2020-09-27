@@ -19,9 +19,9 @@
     "build": "next build",
     "clean": "rimraf ./.next",
     "dev": "next dev",
-    "dev:typed-css": "tcm -w ./src",
+    "dev:typed-css": "tcm -p \"./src/**/*.module.css\" -w",
     "format": "prettier --write .",
-    "typed-css": "tcm ./src",
+    "typed-css": "tcm -p \"./src/**/*.module.css\"",
     "start": "next start",
     "prestart": "npm run build",
     "prebuild": "npm run clean"

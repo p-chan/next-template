@@ -1,3 +1,5 @@
-const Component = () => <h1>next-template</h1>
+import { IndexComponent } from '@components/home'
+
+const Component = () => <IndexComponent />
 
 export default Component
