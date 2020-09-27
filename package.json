@@ -11,14 +11,13 @@
   },
   "license": "MIT",
   "author": "P-Chan",
-  "main": "./dist",
   "repository": {
     "type": "git",
     "url": "https://github.com/p-chan/next-template.git"
   },
   "scripts": {
     "build": "next build",
-    "clean": "rimraf ./dist",
+    "clean": "rimraf ./next",
     "dev": "next dev",
     "format": "prettier --write .",
     "start": "next start"
