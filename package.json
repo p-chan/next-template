@@ -17,10 +17,14 @@
   },
   "scripts": {
     "build": "next build",
-    "clean": "rimraf ./next",
+    "clean": "rimraf ./.next",
     "dev": "next dev",
+    "dev:typed-css": "tcm -w ./src",
     "format": "prettier --write .",
-    "start": "next start"
+    "typed-css": "tcm ./src",
+    "start": "next start",
+    "prestart": "npm run build",
+    "prebuild": "npm run clean"
   },
   "dependencies": {
     "next": "^9.5.3",

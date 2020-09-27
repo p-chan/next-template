@@ -1,2 +1,5 @@
 # output
 dist
+
+# typed-css
+*.css.d.ts
