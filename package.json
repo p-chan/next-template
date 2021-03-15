@@ -27,7 +27,7 @@
     "prebuild": "npm run clean"
   },
   "dependencies": {
-    "next": "^10.0.3",
+    "next": "^10.0.9",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "ress": "^3.0.0"
